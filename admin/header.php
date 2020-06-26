@@ -35,7 +35,7 @@ if ($_SESSION['status']!="status"){
                 <a class="nav-link" href="pelanggan.php">Pelanggan</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Transaksi</a>
+                <a class="nav-link" href="transaksi.php">Transaksi</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="#">Laporan</a>
