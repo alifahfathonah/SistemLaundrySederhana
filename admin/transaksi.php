@@ -47,8 +47,9 @@
                         ?>
                     </td>
                     <td>
-                        <a href="" class="btn btn-sm btn-info">Edit</a>
-                        <a href="" class="btn btn-sm btn-danger" onclick="return confirm('Apakah Anda Ingin Membatalkan Transaksi Ini?')">Batalkan</a>
+                        <a href="transaksi_invoice.php?id=<?php echo $item['transaksi_id'];?>" class="btn btn-sm btn-warning text-white" target="_blank">Invoice</a>
+                        <a href="edit_transaksi.php?id=<?php echo $item['transaksi_id'];?>" class="btn btn-sm btn-info">Edit</a>
+                        <a href="setting/transaksi_hapus.php?id=<?php echo $item['transaksi_id'];?>" class="btn btn-sm btn-danger" onclick="return confirm('Apakah Anda Ingin Membatalkan Transaksi Ini?')">Batalkan</a>
                     </td>
                     <?php $counter++; ?>
                 </tr>
