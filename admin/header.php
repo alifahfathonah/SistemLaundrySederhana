@@ -38,7 +38,7 @@ if ($_SESSION['status']!="status"){
                 <a class="nav-link" href="transaksi.php">Transaksi</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Laporan</a>
+                <a class="nav-link" href="laporan.php">Laporan</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
